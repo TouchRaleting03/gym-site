@@ -1,0 +1,114 @@
+/* Resetting default margin and padding */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+   background-image: url(Images/1175815645-660w.webp);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero section styles */
+#hero {
+    background-image: url(Images/1175815645-660w.webp);
+    background-size: cover;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#hero h2 {
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #ff4500;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #cc3700;
+}
+
+/* About section styles */
+#about {
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    background-color: #443c70b7;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#contact {
+    color: aliceblue;
+    background-color: #443c70b7;
+    padding: 50px 20px;
+    font-weight: bold;
+}
+
+/* Services section styles */
+#services {
+    background-color: #443c70b7;
+    color: rgba(224, 237, 238, 0.788);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#services ul {
+    list-style-type: none;
+}
+
+#services ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
